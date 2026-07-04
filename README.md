@@ -262,27 +262,27 @@ Menghapus akun pengguna dari sistem.
 
 # Cara Instalasi
 
-##1. Clone Repository
+1. Clone Repository
 ```bash
 git clone https://github.com/ryan0556/RSKD_Ryan_Akmal.git```
 
-## 2. Import Android Project
+2. Import Android Project
 
 1. Buka Android Studio.
 2. Pilih **Open Existing Project**.
 3. Pilih folder **RSKD**.
 4. Tunggu proses Gradle Sync selesai.
 
-## 3. Setup Backend
+3. Setup Backend
 1. Install XAMPP.
 2. Salin folder **rsdharmais** ke dalam htdocs.
 
-## 4. Import Database
+4. Import Database
 1. Jalankan Apache dan MySQL.
 2. Buka phpMyAdmin.
 3. Import file SQL database.
 4. Sesuaikan konfigurasi pada file: koneksi.php
-5. 
+
 Contoh:
 ```php
 $host = "localhost";
@@ -291,14 +291,11 @@ $password = "";
 $database = "nama_database";
 ```
 
-
-## 5. Konfigurasi Base URL
-
+5. Konfigurasi Base URL
 Buka 
 ```
 Constants.java
 ```
-
 ubah Base URL menjadi alamat server.
 
 Contoh:
@@ -306,10 +303,10 @@ Contoh:
 public static final String BASE_URL = "http://192.168.1.5/rsdharmais/";
 ```
 
-## 6. Jalankan Backend
+6. Jalankan Backend
 Pastikan Apache dan MySQL berjalan sebelum menjalankan aplikasi Android.
 
-## 7. Build dan Run
+7. Build dan Run
 - Hubungkan emulator atau perangkat Android.
 - Tekan tombol **Run** pada Android Studio.
 - Aplikasi siap digunakan.
