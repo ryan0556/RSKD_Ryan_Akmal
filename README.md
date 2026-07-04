@@ -13,6 +13,7 @@ Android berkomunikasi dengan backend menggunakan HTTP Request dan menerima respo
 
 
 # Arsitektur Sistem
+```
 Android Application (Java + XML)
             │
        HTTP Request
@@ -24,6 +25,7 @@ Android Application (Java + XML)
             │
             ▼
       MySQL Database
+```
 
 
 # Fitur Utama
@@ -52,6 +54,7 @@ Android Application (Java + XML)
 
 # Struktur Project
 
+```
 RSKD/
 │
 ├── app/
@@ -67,9 +70,9 @@ RSKD/
 │   └── build.gradle.kts
 │
 └── gradle files
+```
 
-Backend
-
+```
 rsdharmais/
 │
 ├── login.php
@@ -97,6 +100,7 @@ rsdharmais/
 ├── update_profil_pasien.php
 ├── update_profil_dokter.php
 └── hapus_akun.php
+```
 
 
 # Penjelasan Frontend Android
@@ -257,8 +261,8 @@ Menghapus akun pengguna dari sistem.
 
 # Cara Instalasi
 ## 1. Clone Repository
-bash
-git clone https://github.com/username/repository.git
+```bash
+git clone https://github.com/username/repository.git```
 
 ## 2. Import Android Project
 
@@ -288,7 +292,10 @@ $database = "nama_database";
 
 ## 5. Konfigurasi Base URL
 
-Buka ```Constants.java```
+Buka 
+```
+Constants.java
+```
 
 ubah Base URL menjadi alamat server.
 
@@ -327,6 +334,7 @@ Pastikan Apache dan MySQL berjalan sebelum menjalankan aplikasi Android.
 6. Kelola profil dan riwayat konsultasi.
 
 # Alur Sistem
+```
 Pasien
     │
     ▼
@@ -352,3 +360,4 @@ Status diperbarui
     │
     ▼
 Riwayat tersimpan
+```
