@@ -1,7 +1,7 @@
 # RSKD_Ryan_Akmal
 Tugas UAS
 
-# RSKD - Aplikasi Perjanjian dan Manajemen Jadwal Rumah Sakit
+## RSKD - Aplikasi Perjanjian dan Manajemen Jadwal Rumah Sakit
 
 ## Deskripsi Proyek
 RSKD merupakan aplikasi Android yang dikembangkan sebagai sistem manajemen perjanjian (appointment) antara pasien dan dokter. Aplikasi ini memungkinkan pasien melakukan pendaftaran akun, melihat daftar dokter, membuat perjanjian, melihat riwayat konsultasi, serta mengelola profil. Di sisi lain, dokter dapat mengatur jadwal praktik, melihat daftar pasien yang melakukan kontrol, memperbarui status pertemuan, serta mengelola profil mereka.
@@ -262,7 +262,7 @@ Menghapus akun pengguna dari sistem.
 # Cara Instalasi
 ## 1. Clone Repository
 ```bash
-git clone https://github.com/username/repository.git```
+git clone https://github.com/ryan0556/RSKD_Ryan_Akmal.git```
 
 ## 2. Import Android Project
 
