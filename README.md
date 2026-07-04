@@ -53,7 +53,7 @@ Android Application (Java + XML)
 - Mengubah profil
 
 # Struktur Project
-
+Frontend
 ```
 RSKD/
 │
@@ -72,6 +72,7 @@ RSKD/
 └── gradle files
 ```
 
+Backend
 ```
 rsdharmais/
 │
@@ -261,7 +262,7 @@ Menghapus akun pengguna dari sistem.
 
 # Cara Instalasi
 
-## 1. Clone Repository
+##1. Clone Repository
 ```bash
 git clone https://github.com/ryan0556/RSKD_Ryan_Akmal.git```
 
